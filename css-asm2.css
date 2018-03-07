@@ -1,112 +1,235 @@
 body {
-width: 95%;
-margin: 0 auto;
+width: 90%;
+margin: 0 2% 5% 2%;
 }
 ul{
     list-style-type: none;
+	margin-top: 10px;
+	margin-left: 1%;
+	padding-left:1%;
+	background-color: hsl(180, 100%, 10%);
 }
 li a {
     text-decoration: none;
     text-transform: uppercase;
 	font-family: "Arial";
-	color: #808080;
+	font-size: 100%;
+	color: white;
     margin: 15px;
     text-align: center;	
 	font-weight: bold;
+	
   }
 li {
     display: inline;
+	width: 100%;	
+	padding:3%
+}
+.tangwidth{
+	width: 103%;
+}
+@media only screen and (min-width: 768px) {
+	.right{
+		margin-left:50%;}}
+@media only screen and (max-width: 768px) {
+	.right{
+		padding-right:3%;
+		padding-left:3%;
+	}
+}
+@media only screen and (min-width: 992px) {	
+	li a {
+    text-decoration: none;
+    text-transform: uppercase;
+	font-family: "Arial";
+	color: black;
+    margin: 15px;
+    text-align: center;	
+	font-weight: bold;
 	
+  }
+	}
+.menu{
+		background-color: hsl(180, 100%, 10%);
+		background-size:100%;
+	}
+@media only screen and (min-width: 992px) {	
+	.menu{
+	background-color: white;
+}
 }
 
-#left {
+/*#trai {
     float:left;
-    padding: 25px;
+   padding: 25px;
     margin-right:400px;
-   }
-#right {
+  
+}
+#phai {
     float:left;
     padding: 25px;
-    margin-left: 300px;
-}
-div.background{
-    position: relative;
+    margin-left: 300px; 
+}*/
+
+
+@media only screen and (min-width: 992px) {	
+	.background{
+	position: relative;
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png");
 	background-repeat: no-repeat;
-	/*background-size: 100%;*/
-	top: 50px;
-	bottom:0;
-    height: 550px;
-	
-}
-div.head1 {
+	background-size: 100%;
+	width: 97.3%;
+	left: 1.3%;
+	top: 10%;
+    height: 366px;	
+	padding-bottom:0;
+	margin-bottom:0;
+}	
+	.head1 {
 	position: absolute;
-	font-family: "Verdana" serif;
+	font-family:serif;
     color: white;
-    font-size: 120%;
-	top: 100px;
-	left: 50px;
+    font-size: 100%;
+	font-weight: bold;
+	top: 20%;
+	left: 7%;
 	padding: 0;
     text-align: left;   
-	
 }
-div.d {
+}
+@media only screen and (max-width: 992px) {	
+.backgound{
+	position: relative;
+    /*background:none;
+	/*background-size: 100%;*/
+	top: 10%;
+	bottom:0;
+}
+.head1 {
+	position: relative;
+	font-family: serif;
+    color: black;
+    font-size: 100%;
+	font-weight: 20px;
+	top: 20%;
+	left: 7%;
+	padding: 0;
+    text-align: left;	
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.gachchan{
+			border-bottom: 2px ridge gray;
+			overflow:hidden;
+	}
+}
+
+/*div.d {
 	clear:both;
     padding-bottom: 20px;
 	color: #595959;
-}
+}*/
 
 .term1{
 	padding-bottom:20px;
 	font-size: 80%;
 }
-.term2 {
-	position: relative;
-	top:0;
+@media only screen and (min-width: 992px) {	
+.term2 {	
     background-color: lightgray;
 	border-bottom: 1px solid gray;
 	overflow: hidden;
+	width:100%;
+}}
+@media only screen and (max-width: 992px) {	
+.term2 {	
+    background-color: white;
+	overflow: hidden;
+	width:100%;
 }
-.text2{
-	
+}
+.text2{	
 	text-align: left;
 	font-size: 110%;
-	margin: 40px 50px;
+	margin-left: auto;
 	color: #404040;
-	font-family: sans-serif;
-	
+	font-family: sans-serif;	
 }
-
 div.section{
-    float: left;
-    width: 350px;
+    /*float: left;*/
+    /*width: 20%;
     height: auto;
-    margin-left: 50px;
-   
+    /*margin-left: 25px; 
     margin-top: 10px;
-    margin-bottom:10px;  
+    margin-bottom:10px; */
 	color: #595959;
 	text-align: left;
+	margin-left: 0%;
 }
-div.section a {
+div.section h3 {
+	color: black;
+	font-weight:bold;
+}
+@media only screen and (min-width: 768px) {	
+.section a {
     color:#66ccff;
-	padding-bottom: 50px;
-	text-decoration: none;
-	font-family: "Arial";
-	
-}
+	margin-bottom: 3%;
+	text-decoration: underline;
+	font-family: "Arial";	
+}}
+@media only screen and (max-width: 768px) {
+.section a {
+    color:black;
+	margin-bottom: 3%;
+	text-decoration: underline;
+	font-family: "Arial";	
+}}
 img{
-	margin-bottom: 30px;
-	
+	width: 90%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	margin-left: 3%;
+	margin-right:3%;
 }
+@media only screen and (min-width: 992px) {
 .term3 {
 	clear:both;
-    padding-bottom: 20px;
+	width: 100%;
+    padding-bottom: 7%;
 	color: #595959;
 	background-color: #EDEDED;
 	overflow: hidden;
-}
+	margin:0;
+	padding:0;
+	padding-bottom:10%;
+}}
+@media only screen and (max-width: 992px) {	
+.term3 {
+	clear:both;
+	width: 100%;
+    padding-bottom: 7%;
+	color: #595959;
+	background-color: white;
+	overflow: hidden;
+	margin:0;
+	padding:0;
+	padding-bottom:10%;
+}}
 
 p {
   font-family: sans-serif;
 }
+/*.namhinh{
+	margin:5px;
+}*/
+
+
+/*@media only screen and (min-width: 768px) {
+  header {
+    background-color: white;
+    background-repeat: no-repeat;
+    z-index: 1;
+    height: 500px;
+    color: white;
+    font-family: sans-serif;
+  }*/
