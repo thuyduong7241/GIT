@@ -25,16 +25,13 @@ li {
 	width: 100%;	
 	padding:3%
 }
-/*.tangwidth{
-	width: 103%;
-}*/
 @media only screen and (min-width: 768px) {
 	.right{
 		margin-left:50%;}}
 @media only screen and (max-width: 768px) {
 	.right{
 		padding-right:3%;
-		padding-left:15px;
+		padding-left:3%;
 	}
 }
 @media only screen and (min-width: 992px) {	
@@ -58,18 +55,6 @@ li {
 	background-color: white;
 }
 }
-
-/*#trai {
-    float:left;
-   padding: 25px;
-    margin-right:400px;
-  
-}
-#phai {
-    float:left;
-    padding: 25px;
-    margin-left: 300px; 
-}*/
 
 
 @media only screen and (min-width: 992px) {	
@@ -124,12 +109,6 @@ li {
 	}
 }
 
-/*div.d {
-	clear:both;
-    padding-bottom: 20px;
-	color: #595959;
-}*/
-
 .term1{
 	padding-bottom:20px;
 	font-size: 80%;
@@ -156,12 +135,6 @@ li {
 	font-family: sans-serif;	
 }
 div.section{
-    /*float: left;*/
-    /*width: 20%;
-    height: auto;
-    /*margin-left: 25px; 
-    margin-top: 10px;
-    margin-bottom:10px; */
 	color: #595959;
 	text-align: left;
 	margin-left: 0%;
@@ -219,17 +192,3 @@ img{
 p {
   font-family: sans-serif;
 }
-/*.namhinh{
-	margin:5px;
-}*/
-
-
-/*@media only screen and (min-width: 768px) {
-  header {
-    background-color: white;
-    background-repeat: no-repeat;
-    z-index: 1;
-    height: 500px;
-    color: white;
-    font-family: sans-serif;
-  }*/
